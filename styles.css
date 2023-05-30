@@ -1,0 +1,18 @@
+.nav{
+    background-color: brown;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.h1{
+    color:blue;
+    background-color: bisque;
+    font-size: xx-large;
+    
+}
+.bedford{
+   flex-flow:column ;
+}
+.bizarre{
+    max-width: 400px;
+    max-height: 400px;
+}
