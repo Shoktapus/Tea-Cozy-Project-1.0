@@ -1,48 +1,67 @@
 body{
+    background-color: black;
+    color:seashell;
     font-family:Helvetica;
     font-size: 22px;
-    color:seashell;
-    background-color: black;
     opacity: 0.9;
 }
-.header{
-    z-index: 1;
-    position:fixed;
-    top:0;
-    left:0;
+header{
     align-items: center;
     background-color: black;
     border-bottom: 1px solid seashell;
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    height: 69px;
+    justify-content: space-between;
+    left:0;
+    position:fixed;
+    top:0;
     width: 100%;
-    height:69px;
-    
+    z-index: 1;
 
 }
 .logo{
     max-height: 50px;
     padding-left:10px;
 }
+
 .navbar{
+    align-items:center;
     display: flex;
     list-style-type: none;
-    align-items: center;
+    margin:0;
     padding-left:0;
-    margin:0
 }
 .navbar li{
-    display:flex;
     margin-left:5px;
     margin-right:10px;
 }
 main{
     margin:70px 20px 20px 20px;
-    text-align:center;
-    opacity:0.9
+    opacity: 0.9;
+    text-align:center;  
+}
+.anchor-point{
+    position: relative;
+    top: -70;
+}
+.mission{
+    align-items: last center;
+    background-image: url(img-mission-background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height:700px;
+    width:1200px;
+}
+.mission-text{
+    align-items: center;
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    width: 1200px;
 }
 .tea{
     height:200px;
-    width: 300px;
     padding-bottom:10px;
+    width: 300px; 
 }
