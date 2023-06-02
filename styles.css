@@ -5,6 +5,7 @@ body{
     font-size: 22px;
     opacity: 0.9;
 }
+
 header{
     align-items: center;
     background-color: black;
@@ -19,6 +20,7 @@ header{
     z-index: 1;
 
 }
+
 .logo{
     max-height: 50px;
     padding-left:10px;
@@ -31,21 +33,25 @@ header{
     margin:0;
     padding-left:0;
 }
+
 .navbar li{
     margin-left:5px;
     margin-right:10px;
 }
+
 main{
     margin:70px 20px 20px 20px;
     opacity: 0.9;
     text-align:center;  
 }
+
 .anchor-point{
     position: relative;
     top: -70;
 }
-.mission{
-    align-items: last center;
+
+.mission-background{
+    align-items: center;
     background-image: url(img-mission-background.jpg);
     background-position: center;
     background-size: cover;
@@ -53,15 +59,43 @@ main{
     height:700px;
     width:1200px;
 }
-.mission-text{
-    align-items: center;
+
+.mission__text{
     background-color: black;
-    display:flex;
-    flex-direction:column;
     width: 1200px;
 }
+
+.tea-text{
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.tea-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .tea{
     height:200px;
-    padding-bottom:10px;
+    margin: 0px 10px;
     width: 300px; 
+}
+
+.location-background{
+    align-items: center;
+    background-image: url(img-locations-background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    margin: auto;
+}
+
+.location-div{
+    background-color: black;
+    height: 300px;
+    
+    opacity 1;
+    width: 300px;
 }
