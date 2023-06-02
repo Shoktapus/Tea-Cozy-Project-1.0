@@ -57,12 +57,17 @@ main{
     background-size: cover;
     display: flex;
     height:700px;
+    margin-bottom: 70px;
     width:1200px;
 }
 
 .mission__text{
     background-color: black;
     width: 1200px;
+}
+
+h2, h4{
+    margin: 10px;
 }
 
 .tea-text{
@@ -74,6 +79,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 10px;
 }
 
 .tea{
@@ -83,19 +89,39 @@ main{
 }
 
 .location-background{
-    align-items: center;
     background-image: url(img-locations-background.jpg);
     background-position: center;
     background-size: cover;
-    display: flex;
-    height: 500px;
+    max-width: 1200px;
+    min-height: 500px;
     margin: auto;
+}
+
+.location-background h2{
+    padding-top: 45px;
+    margin: 0px;
+}
+.location-flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 45px;
 }
 
 .location-div{
     background-color: black;
-    height: 300px;
-    
-    opacity 1;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+    min-height: 300px; 
+    min-width: 300px;
+    opacity: 1;
+}
+
+.contact{
+    min-height: 200px;
+}
+
+footer{
+    margin-left: 20px;
 }
